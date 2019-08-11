@@ -7,8 +7,8 @@
 
 ## Example of uses 
 <pre>
-<p id="product-name"></p>
-<p id="product-price"></p>
+    &gt;p id="product-name"&gt;&lt;/p&gt;
+    &gt;p id="product-price"&gt;&lt;/p&gt;
 
 <script>
     function test() {
