@@ -43,5 +43,5 @@
 </pre>
 
 ## Output 
-<p>Product Name: Test Product Test Category</p>
-<p>Product Price: $50</p>
+<p id="product-name">Product Name: Test Product <small style="color: blue;">Test Category</small></p>
+<p id="product-price">Product Price: $50</p>
