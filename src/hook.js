@@ -12,8 +12,9 @@ var Hook = {
      * @param {mixed} callback 
      */
     register: function (name, callback) {
-        if ('undefined' == typeof (Hook.hooks[name]))
+        if ('undefined' == typeof (Hook.hooks[name])) {
             Hook.hooks[name] = []
+        }
         Hook.hooks[name].push(callback)
     },
     /**
